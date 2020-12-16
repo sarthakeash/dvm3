@@ -52,7 +52,7 @@ position: absolute;
 font-size: 40px;
 color:#fffdd0;}
 
-.next{margin-left: 1330px; 
+.next{margin-left: 1360px; 
 margin-bottom: 0px;}
 
 
@@ -61,7 +61,7 @@ margin-bottom: 0px;}
 	cursor: pointer;
 	height: 13px;
 	width: 13px;
-	margin: 0 2px;
+	margin: 0 4px;
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
