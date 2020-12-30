@@ -165,7 +165,7 @@ color:#fffdd0;}
     
     display: none; 
     margin-left: -30px;
-        margin-top: 10px;
+    margin-top: 10px;
 }
     
     
@@ -258,8 +258,8 @@ height: 225px;}
 
 border-spacing: -40px;
 border-width: .5px;
-margin-bottom: -1px;
-margin-right: 20px;
+margin-bottom: 0px;
+margin-right: 2%;
 }
 
 
@@ -268,7 +268,7 @@ margin-right: 20px;
 border-spacing: 400px;
 border-width: .5px;
 margin-bottom: 0px;
-margin-right: 20px;
+margin-right: 2%;
 }
 
 
@@ -279,16 +279,7 @@ margin-right: 20px;
 
 .abc{margin-left: -30px;
     margin-top: 11px;
-    display: none
-
-
-}
-
-
-
-
-
-
+    display: none}
 
 
 
