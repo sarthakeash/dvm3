@@ -1,14 +1,25 @@
+
+.fck{font-size:20px;cursor:pointer;top: 65px; position: absolute;display: none;}
+
 pre{font-family: "cochin";}
 
 body{ margin-top: -20px;background-color: #fdfdfd;}
-.fa.fa-search{font-size: 18px; width: 20px;
-padding-top: 10px;
-padding-left: 15px;}
+.fa.fa-search{font-size: 18px; width: 20px;margin-left: 3%;
+margin-top: -50px;position: absolute;
+}
 
 h5{ font-family: 'geneva'; font-size: 17px;}
-#bag{width: 24px;font-size: 18px;}
+#bag{width: 24px;font-size: 18px; position: absolute; margin-left: 96%; top:90px}
 
 
+#user{ margin-left: 94%;
+    top: 90px;
+    font-size: 20px; position: absolute;width: 30px
+
+
+}
+
+.l1{display: none}
 .top{ 
 
     text-align: center;
@@ -42,7 +53,7 @@ height: 600px;}
 
 }
 
-
+#list{display: none;}
 
 
 .prev {
@@ -284,7 +295,7 @@ margin-right: 2%;
 
 
 .last{ display: flex; justify-content: space-around;
-margin-left: 10px;}
+margin-left: 10px; flex-wrap: wrap;}
 
 
 .hr{ margin-top: 300px;}
@@ -308,7 +319,7 @@ font-size: 25px;}
 
 
     .navbr {
-  margin-left: 25%;
+  margin-left: 35%;
   padding-bottom: 30px;
   font-family: 'Graphik';
         
@@ -340,6 +351,7 @@ font-size: 25px;}
         font-family: inherit;
         margin: 0;
       }
+      
       
       .navbar a:hover, .dropdown:hover .dropbtn {
         background-color:black;
@@ -384,3 +396,359 @@ color: black;}
 
       
       
+
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    pre{font-family: "cochin";}
+
+    body{ margin-top: -20px;background-color: #fdfdfd;}
+    .fa.fa-search{font-size: 18px; width: 20px;
+    padding-top: 10px;
+    padding-left: 15px;}
+    
+    h5{ font-family: 'geneva'; font-size: 17px;}
+    #bag{width: 24px;font-size: 18px;}
+    
+    
+    .top{ 
+    
+        text-align: center;
+        background-color: black;
+        color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-family: Geneva, Verdana, sans-serif;
+    margin-left: -5%;
+    margin-right: -8%;
+    }
+    
+    .i1{ margin-left:88.7% ;
+    margin-top: -50px;
+    font-size: 18px;
+    }
+    .heading{
+        margin-left: 0%;
+        font-size: 80px;
+        font-family: Geneva, Verdana, sans-serif;
+    }
+    #search{margin-left: 1%;top:110px}
+
+  #bag{ margin-left:88.7% ;
+    top: 70px;position: absolute;
+    font-size: 18px;}
+
+  #user{
+margin-left: 95%;
+top: 70px;
+font-size: 18px; position: absolute;}
+
+.inr{ display: none;}
+#list{display: inline;
+position: absolute;
+top: 70px;
+}
+
+  
+
+
+.navbr{display: none}
+
+
+
+
+
+
+.img2{width: 0105%;
+    height: 200px;}
+    .img1{width:   105%;
+        margin-left: -5px;
+    
+    }
+    
+    .prev {
+        margin-left: 0px;
+    
+    margin-top: -125px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    color:#fffdd0;}
+    
+    .next{margin-left: 99%; 
+    margin-bottom: 0px;margin-top: -125px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    color:#fffdd0;}
+
+
+
+
+
+
+
+
+
+.ims{display: flex; justify-content: space-around; margin-left: -10%; margin-right: 25px; flex-wrap: wrap;}
+
+.ia{
+    width: 100px;
+    height: 145px;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.new
+{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+
+}
+
+
+
+
+
+.new:hover .i2{
+    display: inline;
+
+    width: 160px;
+    height: 200px;
+}
+
+
+
+.ia .i4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.ia:hover .i4{
+    display: inline;
+    width: 160px;
+    height: 200px;
+
+
+}
+
+.ia .i6{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.ia:hover .i6{
+    display: inline;
+    height: 250px;
+}
+
+.ia .i8 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.ia:hover .i8{
+    display: inline; height: 250px;
+}
+
+.abc1{
+    
+    display: none; 
+    margin-left: -30px;
+    margin-top: 10px;
+}
+    
+    
+
+
+.ia:hover .abc1{
+    display: none;
+    animation-name: example;
+    animation-duration: .1s;
+    
+    }
+
+@keyframes example{
+    from {margin-left: -30px;
+        margin-top: 20px;}
+    to {margin-left: -30px;
+        margin-top: 10px;
+    
+    }
+        
+}
+
+.new:hover .abc{
+    display: none;
+    animation-name: example;
+    animation-duration: .1s;
+    
+    }
+
+@keyframes example{
+    from {margin-left: -30px;
+        margin-top: 21px;}
+    to {margin-left: -30px;
+        margin-top: 11px;
+    
+    }
+        
+}
+
+
+
+
+
+.new:hover .i1a{display: none}
+.ia:hover .i3{
+    display: none;
+}
+.ia:hover .i5{
+    display: none
+}
+.ia:hover .i7{
+    display: none
+}
+
+
+
+
+
+.i1a{ 
+    width:140%;height: 170px;}
+
+.i3{
+    width: 173%;
+    height: 170px;
+}
+.i6{width: 173%;}
+.i4{width: 100%;
+height: 225px;}
+.i7{width: 173%; height: 230px;}
+.i8{width: 173%;
+height: 225px;}
+.i5{width: 173%; height: 230px;}
+
+
+
+.t1{
+    margin-left: -20px;
+    top: 200px;
+    position: absolute;}
+
+
+    .t2 {
+        top: 200px;
+        margin-left: -50px;
+        position: absolute;
+    }
+
+    .t3 , .t4 {
+        top: 300px;
+        margin-left: -35px;
+        position: absolute;
+    }
+
+
+
+
+    .buy{ 
+display: none;
+}
+
+
+.buy1{ 
+display: none;
+}
+
+
+.newl{display:none}
+
+
+.details-example
+{
+
+    margin-top: 25px;
+}
+
+
+
+.p2b{display: inline;
+    animation-name: ABC;
+    animation-duration: 1s;
+}
+
+@keyframes ABC {
+    from {margin-left: -400px;}
+    to {margin-left: 0px}
+}
+
+.p1b{
+
+    margin-left: 0px;
+}
+
+
+
+.fck{display: inline}
+
+
+
+
+
+
+
+}
